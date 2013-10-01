@@ -23,7 +23,7 @@ pip install --download=$BUILD_DIR --no-install -r requirements.txt
 ### Django-nonrel
 unzip -q $BUILD_DIR/django-autoload-*.zip -d $BUILD_DIR
 unzip -q $BUILD_DIR/django-dbindexer-*.zip -d $BUILD_DIR
-unzip -q $BUILD_DIR/django-nonrel-1.4.5.zip -d $BUILD_DIR
+unzip -q $BUILD_DIR/django-nonrel-1.4.8.zip -d $BUILD_DIR
 unzip -q $BUILD_DIR/djangoappengine-1.*.zip -d $BUILD_DIR
 unzip -q $BUILD_DIR/djangotoolbox-*.zip -d $BUILD_DIR
 

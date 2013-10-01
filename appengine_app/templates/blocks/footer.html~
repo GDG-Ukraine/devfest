@@ -7,10 +7,19 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                 <h4>Навігація</h4>
                     <ul>
+<<<<<<< HEAD
+                        <li><a href="/">Головна</a></li>
+                        <li><a href="/agenda">Програма</a></li>
+                        <li><a href="/speakers">Спікери</a></li>
+                        <li><a href="/location">Розташування</a></li>
+                        <li><a href="/team">Команда</a></li>
+                        <li><a href="/devfest2012">DevFest 2012</a></li>
+=======
                         <li><a href="/">Home</a></li>
                         <li><a href="/agenda">Agenda</a></li>
                         <li><a href="/speakers">Speakers</a></li>
                         <li><a href="/location">Location</a></li>
+>>>>>>> 679e0187dd6e0e396dc63e3c20f3581952f03902
                      </ul>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3">
