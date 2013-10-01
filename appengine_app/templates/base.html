@@ -4,24 +4,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GDG DevFest 2013 Ukraine, 25-27 жовтня, Київ">
-    <meta name="author" content="Oleh Zasadnyy (GDG Lviv)">
+    <meta name="description" content="GDG DevFest 2013 Belgium, 16/17 November 2013">
+    <meta name="author" content="Friedger Müffke (GTUG Brussels)">
    
       <!--Twitter cards meta tags-->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GDG DevFest 2013 Ukraine, 25-27 жовтня, Київ">
-    <meta name="twitter:description" content="DevFest- це щорічний івент, організований силами українського         комюніті Google Developers Group. Основна мета — зустріч всіх, хто цікавиться технологіями Google                   для обміну досвідом, знайомств і навчання. В програмі: саміт лідерів GDG, хакатон, конференція.">
-    <meta name="twitter:image:src" content="http://gdg-devfest-ua.appspot.com/static/images/devfestualogo.png">
-    <meta name="twitter:domain" content="devfest.gdg.org.ua">
+    <meta name="twitter:title" content="GDG DevFest 2013 Belgium, 16/17 November 2013, Brussels">
+    <meta name="twitter:description" content="DevFest is an annual event organized by the developer communities. The main goal - meeting of all those interested in Google technologies to share experiences, acquaintances and learning. The program includes: workshops, code-labs, conference, open hack day.">
+    <meta name="twitter:image:src" content="http://devfest-brussels.appspot.com/static/images/devfestualogo.png">
+    <meta name="twitter:domain" content="devfest.brussels-gtug.org">
 
     <!--Shema.org meta tags (for G+)-->
-    <meta property="og:title" content="GDG DevFest 2013 Ukraine, 25-27 жовтня, Київ" />
+    <meta property="og:title" content="GDG DevFest 2013 Belgium, 16/17 November 2013, Brussels" />
     <meta property="og:image" content="{% static "images/devfestualogo.png" %}" />
-    <meta property="og:description" content="DevFest- це щорічний івент, організований силами українського комюніті Google Developers Group. Основна мета — зустріч всіх, хто цікавиться технологіями Google для обміну досвідом, знайомств і навчання. В програмі: саміт лідерів GDG, хакатон, конференція." />
+    <meta property="og:description" content="DevFest is an annual event organized by the developer communities with Google Developers Group. The main goal - meeting of all those interested in Google technologies to share experiences, acquaintances and learning. The program includes: workshops, code-labs, conference, open hack day." />
    
     <link rel="shortcut icon" href="{% static "images/favicon.png" %}">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <title>{% block page_title %}GDG DevFest Ukraine 2013 {% endblock %}</title>
+    <title>{% block page_title %}GDG DevFest Belgium 2013 {% endblock %}</title>
       
     <!-- Bootstrap core CSS -->
     <link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
@@ -54,11 +54,10 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="{% if active_menu == "index" %}active{% endif %}"><a href="{% url index %}">Головна</a></li>
-                <li class="{% if active_menu == "agenda" %}active{% endif %}"><a href="{% url agenda %}">Програма</a></li>
-                <li class="{% if active_menu == "speakers" %}active{% endif %}"><a href="{% url speakers %}">Спікери</a></li>
-                <li class="{% if active_menu == "location" %}active{% endif %}"><a href="{% url location %}">Розташування</a></li>
-                <li class="{% if active_menu == "devfest2012" %}active{% endif %}"><a href="{% url devfest2012 %}">DevFest 2012</a></li>
+                <li class="{% if active_menu == "index" %}active{% endif %}"><a href="{% url index %}">Home</a></li>
+                <li class="{% if active_menu == "agenda" %}active{% endif %}"><a href="{% url agenda %}">Agenda</a></li>
+                <li class="{% if active_menu == "speakers" %}active{% endif %}"><a href="{% url speakers %}">Speakers</a></li>
+                <li class="{% if active_menu == "location" %}active{% endif %}"><a href="{% url location %}">Location</a></li>
                 <!--<li><a href="http://gdg.org.ua/">GDG.org.ua</a></li>-->
               </ul>
             </div>
