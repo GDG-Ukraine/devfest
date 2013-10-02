@@ -1,8 +1,29 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title></title>
-  </head>
-  <body>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% load static %} 
+
+{% block page_title %}Open Hack Day &middot; GDG DevFest Belgium 2013{% endblock %} 
+
+{% block carousel %} 
+    {% include "blocks/carousel.html" %} 
+{% endblock %} 
+
+{% block content %}
+    <h1 id="speakers_header">Open Hack Day</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-circle" src="/static/images/hackathon.png" alt="openhackday">
+        </div>
+        <div class="col-md-9">
+            <p>
+                <b style="font-weight: 600;">16/17 November</b>, 30 годин нон-стоп кодингу для найстійкіших, море RedBull'у, фану та цікавих знайомств і все для того, щоб показати в кінці робочий прототип додатку на одній з найновіших платформ від Google</p>
+            <div class="alert alert-warning" style="margin-top: 50px;">
+                <i>
+                    <b>Робота кипить!</b> Сторінка ще не завершена, більше інформації ми опублікуємо згодом.</i>
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    
+    {% include "blocks/partners.html" %} 
+{% endblock %}

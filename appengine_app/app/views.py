@@ -47,7 +47,7 @@ def openhackday(request):
     return render_to_response('pages/openhackday.html', context,
                               context_instance=RequestContext(request))
 
-def conference(request):
+def techtalks(request):
     context = {
         "active_menu": "none",
     }
