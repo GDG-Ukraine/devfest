@@ -491,6 +491,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .location_logo {
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
 }
