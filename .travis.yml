@@ -1,1 +1,9 @@
+language: python
+install: "pip install -r requirements.txt --use-mirrors"
 
+before_script:
+- wget http://googleappengine.googlecode.com/files/google_appengine_1.8.5.zip -nv
+- unzip -q google_appengine_1.8.5.zip
+
+after_script:
+- appcfg.py --noauth_local_webserver --oauth2 update
