@@ -59,8 +59,11 @@
                 <li class="{% if active_menu == "speakers" %}active{% endif %}"><a href="{% url speakers %}">Speakers</a></li>
                 <li class="{% if active_menu == "location" %}active{% endif %}"><a href="{% url location %}">Location</a></li>
                 <li class="{% if active_menu == "team" %}active{% endif %}"><a href="{% url team %}">Team</a></li>
-                <!--<li><a href="http://gdg.org.ua/">GDG.org.ua</a></li>-->
+                <!--<li><a href="http://gdg.org.ua/">GDG.org.ua</a></li>-->               
               </ul>
+              <span id="signin" ng-show="immediateFailed">
+                  <span id="myGsignin"></span>
+              </span>              
             </div>
           </div>
         </div>
@@ -102,6 +105,7 @@
     <script src="{% static "js/plusgallery.js"%}"></script>
     <script src="{% static "js/modernizr.custom.26633.js" %}"></script> 
     <script src="{% static "js/jquery.gridrotator.js" %}"></script>
+    <script src="{% static "js/gplussignin.js" %}"></script>
     <script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
