@@ -50,23 +50,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="{% url index %}"><img src="{% static "images/logo.png" %}"></a>
+              <a class="navbar-brand" href="{% url index %}"><img src="{% static "images/DevFestBelgium_bg_009_wide.png" %}"></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-<<<<<<< HEAD
-                <li class="{% if active_menu == "index" %}active{% endif %}"><a href="{% url index %}">Головна</a></li>
-                <li class="{% if active_menu == "agenda" %}active{% endif %}"><a href="{% url agenda %}">Програма</a></li>
-                <li class="{% if active_menu == "speakers" %}active{% endif %}"><a href="{% url speakers %}">Спікери</a></li>
-                <li class="{% if active_menu == "location" %}active{% endif %}"><a href="{% url location %}">Розташування</a></li>
-                <li class="{% if active_menu == "team" %}active{% endif %}"><a href="{% url team %}">Команда</a></li>
-                <li class="{% if active_menu == "devfest2012" %}active{% endif %}"><a href="{% url devfest2012 %}">DevFest 2012</a></li>
-=======
                 <li class="{% if active_menu == "index" %}active{% endif %}"><a href="{% url index %}">Home</a></li>
                 <li class="{% if active_menu == "agenda" %}active{% endif %}"><a href="{% url agenda %}">Agenda</a></li>
                 <li class="{% if active_menu == "speakers" %}active{% endif %}"><a href="{% url speakers %}">Speakers</a></li>
                 <li class="{% if active_menu == "location" %}active{% endif %}"><a href="{% url location %}">Location</a></li>
->>>>>>> 679e0187dd6e0e396dc63e3c20f3581952f03902
+                <li class="{% if active_menu == "team" %}active{% endif %}"><a href="{% url team %}">Team</a></li>
                 <!--<li><a href="http://gdg.org.ua/">GDG.org.ua</a></li>-->
               </ul>
             </div>
