@@ -210,6 +210,10 @@ body {
 	width: 32px;
 }
 
+.img-circle {
+	width: 160px;
+}
+
 .speakers > div{
 	margin: 40px 0 -10px;
 }
